@@ -1,0 +1,6 @@
+[webservers]
+192.168.33.58
+
+[webservers:vars]
+
+cache_size=200MB
