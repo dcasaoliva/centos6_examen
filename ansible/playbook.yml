@@ -1,6 +1,9 @@
 ---
-- name: My first playbook :)
+- name: Examen centos6 :)
   hosts: "webservers"
+  vars:
+    http_port: 80
+    max_clients: 200
   become: true
   become_user: root
   roles:
